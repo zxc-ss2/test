@@ -1,0 +1,24 @@
+// @include font("Qanelas", "Qanelas-Regular", 500);
+// @include font("Qanelas", "Qanelas-Light", 300);
+// @include font("Qanelas", "Qanelas-Medium", 400);
+
+@font-face{
+    font-family: Qanelas;
+    font-display: swap;
+    src: url("../fonts/Qanelas-Regular.woff") format("woff"), url("../fonts/Qanelas-Regular.woff2") format("woff");
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: Qanelas;
+    font-display: swap;
+    src: url("../fonts/Qanelas-Light.woff") format("woff"), url("../fonts/Qanelas-Light.woff2") format("woff");
+    font-weight: 300;
+}
+
+@font-face{
+    font-family: Qanelas;
+    font-display: swap;
+    src: url("../fonts/Qanelas-Medium.woff") format("woff"), url("../fonts/Qanelas-Medium.woff2") format("woff");
+    font-weight: 500;
+}

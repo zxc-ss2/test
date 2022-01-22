@@ -1,0 +1,39 @@
+.suppliers {
+    padding-bottom: 150px;
+
+    &__wrapper {
+    }
+
+    &__container {
+    }
+
+    &__title {
+        text-align: center;
+    }
+
+    &__body {
+        margin-top: 70px;
+    }
+
+    &__slider {
+        display: flex;
+        align-items: center;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 15px;
+        // background: url(../img/technonikol.png) no-repeat;
+        // background-position: center center;
+        // background-size: contain;
+        // height: 100px;
+    }
+}
+
+.fix{
+    img{
+        width: 100%;
+    }
+}
