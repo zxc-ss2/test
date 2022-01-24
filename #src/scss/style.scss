@@ -79,3 +79,17 @@ body {
     transition: all 0.4s ease 0s;
 }
 
+@media(max-width: 991px){
+    .container{
+        max-width: 1720px;
+        padding: 0 30px;
+    }
+}
+
+@media(max-width: 550px){
+    .container{
+        max-width: 1720px;
+        padding: 0 15px;
+    }
+}
+

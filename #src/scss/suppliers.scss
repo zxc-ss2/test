@@ -37,3 +37,27 @@
         width: 100%;
     }
 }
+
+@media(max-width: 768px){
+    .suppliers {
+        padding-bottom: 75px;
+
+        &__body {
+            margin-top: 40px;
+        }
+    }
+}
+
+@media(max-width: 510px){
+    .suppliers {
+        padding-bottom: 50px;
+
+        &__title{
+            h2{
+                font-size: 24px;
+                line-height: 38 * 100% /24;
+            }
+
+        }
+    }
+}

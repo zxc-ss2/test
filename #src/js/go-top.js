@@ -5,6 +5,7 @@ function backToTop() {
     }
 }
 
-let goTopBtn = document.querySelector('.footer__go-back');
-
-goTopBtn.addEventListener('click', backToTop);
+let goTopBtn = document.querySelectorAll('.go-back');
+for (let i = 0; i < goTopBtn.length; i++) {
+    goTopBtn[i].addEventListener('click', backToTop);
+}

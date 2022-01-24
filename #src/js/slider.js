@@ -11,7 +11,6 @@ class MenuHandler {
         });
 
     }
-
 }
 
 $(document).ready(function ($) {

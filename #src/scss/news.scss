@@ -11,6 +11,10 @@
         background: #fff;
         margin: 0 10px;
         transition: all 0.3s ease 0s;
+        border-radius: 6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
 
         @media(any-hover: hover){
             &:hover{
@@ -46,7 +50,8 @@
         font-size: 18px;
         font-weight: 300;
         line-height: 31 * 100% / 18;
-        padding: 15px 27px 80px 27px;
+        padding: 15px 27px 20px 27px;
+        margin-top: auto;
     }
 }
 
@@ -64,4 +69,95 @@
     font-weight: 500 !important;
     font-size: 18px !important;
     border: 1px solid #DBDBDB !important;
+}
+
+@media(max-width: 768px){
+    .news {
+        padding: 70px 0;
+    
+        &__body {
+            margin-top: 30px;
+        }
+    
+        &__item {
+            margin: 0 10px;
+        }
+    
+        &__title{
+            h2{
+                font-size: 28px;
+                line-height: 45 * 100% / 28;
+            }
+        }
+    
+        &__name {
+            font-size: 16px;
+            line-height: 27 * 100% / 16;
+            padding: 15px 20px 0 20px;
+        }
+    
+        &__date {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24 * 100% / 14;
+            padding: 10px 20px 20px 20px;
+        }
+    }
+
+    .btn{
+        width: 154px;
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 550px){
+    .news {
+        padding: 50px 0 150px 0;
+        position: relative;
+    
+        &__body {
+            margin-top: 30px;
+        }
+
+        &__container{
+        }
+    
+        &__item {
+            margin: 0 10px;
+        }
+    
+        &__title{
+            text-align: center;
+            display: block;
+            h2{
+                font-size: 28px;
+                line-height: 45 * 100% / 28;
+            }
+
+            a{
+                position: absolute;
+                bottom: 50px; left: 50%;
+                margin-left: -78px;
+                min-width: auto;
+            }
+        }
+    
+        &__name {
+            font-size: 16px;
+            line-height: 27 * 100% / 16;
+            padding: 15px 20px 0 20px;
+        }
+    
+        &__date {
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24 * 100% / 14;
+            padding: 10px 20px 20px 20px;
+        }
+    }
+
+    .btn{
+        width: 154px;
+        font-size: 16px;
+    }
 }

@@ -3,5 +3,5 @@
 @@include("slick.min.js");
 @@include("slider.js");
 @@include("go-top.js");
-
+@@include("footer-menu.js");
 
